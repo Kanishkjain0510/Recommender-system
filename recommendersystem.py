@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the data from CSV
-data = pd.read_csv('/home/kanishk-jain/Desktop/Github uploads/basic_ml/recommender/data.csv')
+data = pd.read_csv('add your csv file path here')
 
 # Get the unique email addresses
 email = list(set(data.values.flatten().tolist()))
